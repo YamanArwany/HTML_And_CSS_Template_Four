@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AYAMA-Setting</title>
+    <link rel="stylesheet" href="Css/framework.css" />
+    <link rel="stylesheet" href="Css/Template-4.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Open+Sans:wght@300;400;500;600;700&family=Pacifico&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/Normalize.css" />
+    <!-- Font Awesome File  -->
+    <link rel="stylesheet" href="Css/all.min.css" />
+  </head>
+  <body>
+    <!-- Start Page  -->
+    <div class="page">
+      <!-- Start Sidebar  -->
+      <div class="sidebar">
+        <h3>AYAMA</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="icon fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a class="active" href="settings.html">
+              <i class="icon fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="icon fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="icon fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="icon fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="icon fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="icon fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="icon fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- End Sidebar  -->
+      <!-- Start Content  -->
+      <div class="content">
+        <!-- Start Header  -->
+        <header>
+          <form action="">
+            <input
+              type="search"
+              name="search"
+              id=""
+              placeholder="Type A Keyword"
+            />
+          </form>
+          <div class="icons">
+            <i class="icon fa-regular fa-bell fa-lg"></i>
+            <img src="imgs/avatar.png" alt="" />
+          </div>
+        </header>
+        <!-- End Header  -->
+        <!-- Start Dashboard  -->
+        <div class="dashboard">
+          <h1>Settings</h1>
+          <div class="wrapper">
+            <!-- Start Site Control  -->
+            <div class="site-control">
+              <h2>Site Control</h2>
+              <p>Control The Website If There Is Maintenance</p>
+              <div class="part">
+                <div class="text">
+                  <h4>Website Control</h4>
+                  <p>Open/Close Website And Type The Reason</p>
+                </div>
+                <form class="boxcheck" action="">
+                  <input
+                    type="checkbox"
+                    name="website-control"
+                    id="website-control"
+                    checked
+                  />
+                  <label class="checkbox" for="website-control"></label>
+                </form>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Close Message Content"
+                ></textarea>
+              </div>
+            </div>
+            <!-- End Site Control  -->
+            <!-- Start General Info  -->
+            <div class="general-info">
+              <h2>General Info</h2>
+              <p>General Information About Your Account</p>
+              <form action="">
+                <label for="">First Name</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id=""
+                  placeholder="First Name"
+                />
+                <label for="">Last Name</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  id=""
+                  placeholder="Last Name"
+                />
+                <label for="">Email</label><br />
+                <input
+                  type="email"
+                  name="last-name"
+                  id=""
+                  placeholder="Ya.Ar@gmail.com"
+                  disabled
+                />
+                <a href="" class="change">Change</a>
+              </form>
+            </div>
+            <!-- End General Info  -->
+            <!-- Start Security Info -->
+            <div class="security-info">
+              <h2>Security Info</h2>
+              <p>Security Information About Your Account</p>
+              <div class="box box1">
+                <div class="text">
+                  <h4>Password</h4>
+                  <p>Last Change On 25/10/2021</p>
+                </div>
+                <button>Change</button>
+              </div>
+              <div class="box box2">
+                <div class="text">
+                  <h4>Two-Factor Authentication</h4>
+                  <p>Enable/Disable The Feature</p>
+                </div>
+                <form class="boxcheck" action="">
+                  <input type="checkbox" name="Two-Factor" id="Two-Factor" />
+                  <label class="checkbox" for="Two-Factor"></label>
+                </form>
+              </div>
+              <div class="box box3">
+                <div class="text">
+                  <h4>Devices</h4>
+                  <p>Check The Login Devices List</p>
+                </div>
+                <button>Devices</button>
+              </div>
+            </div>
+            <!-- End Security Info -->
+            <!-- Start Social Info  -->
+            <div class="social-info">
+              <h2>Social Info</h2>
+              <p>Social Media Information</p>
+              <form action="">
+                <div class="part">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Twitter Username"
+                  />
+                  <i class="twitter fa-brands fa-twitter"></i>
+                </div>
+                <div class="part">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Facebook Username"
+                  />
+                  <i class="facebook fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="part">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Linkedin Username"
+                  />
+                  <i class="facebook fa-brands fa-linkedin"></i>
+                </div>
+                <div class="part">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Youtube Username"
+                  />
+                  <i class="facebook fa-brands fa-youtube"></i>
+                </div>
+              </form>
+            </div>
+            <!-- End Social Info  -->
+            <!-- Start Widgets Control -->
+            <div class="widgets-control">
+              <h2>Widgets Control</h2>
+              <p>Show/Hide Widgets</p>
+              <form action="">
+                <input
+                  type="checkbox"
+                  name="Quick Draft"
+                  id="Quick-Draft"
+                  checked
+                />
+                <label for="Quick-Draft">Quick Draft</label><br />
+                <input
+                  type="checkbox"
+                  name="Yearly Targets"
+                  id="Yearly-Targets"
+                />
+                <label for="Yearly-Targets">Yearly Targets</label><br />
+                <input
+                  type="checkbox"
+                  name="Tickets Statistics"
+                  id="Tickets-Statistics"
+                />
+                <label for="Tickets-Statistics">Tickets Statistics</label><br />
+                <input type="checkbox" name="Latest News" id="Latest-News" />
+                <label for="Latest-News">Latest News</label><br />
+                <input type="checkbox" name="Latest Tasks" id="Latest-Tasks" />
+                <label for="Latest-Tasks">Latest Tasks</label><br />
+              </form>
+            </div>
+            <!-- End Widgets Control -->
+            <!-- Start Backup Manager -->
+            <div class="backup-manager">
+              <h2>Backup Manager</h2>
+              <p>Control Backup Time And Location</p>
+              <form action="" class="part1">
+                <div class="section">
+                  <input type="radio" name="Time" id="Daily" />
+                  <label for="Daily">Daily</label>
+                </div>
+                <div class="section">
+                  <input type="radio" name="Time" id="Weekly" />
+                  <label for="Weekly">Weekly</label>
+                </div>
+                <div class="section">
+                  <input type="radio" name="Time" id="Monthly" />
+                  <label for="Monthly">Monthly</label>
+                </div>
+              </form>
+              <form action="" class="part2">
+                <input type="radio" name="info" id="Megaman" />
+                <label for="Megaman">
+                  <i class="fa-solid fa-server"></i>
+                  <p>Megaman</p>
+                </label>
+                <input type="radio" name="info" id="Zero" />
+                <label for="Zero">
+                  <i class="fa-solid fa-server"></i>
+                  <p>Zero</p>
+                </label>
+                <input type="radio" name="info" id="Sigma" />
+                <label for="Sigma">
+                  <i class="fa-solid fa-server"></i>
+                  <p>Sigma</p>
+                </label>
+              </form>
+            </div>
+            <!-- End Backup Manager -->
+          </div>
+        </div>
+        <!-- End Dashboard  -->
+      </div>
+      <!-- End Content  -->
+    </div>
+    <!-- End Page  -->
+  </body>
+</html>
